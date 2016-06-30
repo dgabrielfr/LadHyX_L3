@@ -1,0 +1,9 @@
+# Commandes pour compiler #
+
+## Vers un fichier HTML ##
+
+> pandoc -F pandoc-crossref -F pandoc-citeproc introduction.md -t html5 -s -S --mathjax --bibliography biblio_stage_L3.bib -o rapport_L3.html
+
+## Vers un fichier ConTeXt ##
+
+> pandoc -F pandoc-crossref -F pandoc-citeproc introduction.md -t context -s -S --mathjax --bibliography biblio_stage_L3.bib -o rapport_L3.tex

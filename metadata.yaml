@@ -1,0 +1,13 @@
+---
+title: 'Simulation de l'écoulement de Couette Plan en régime transitionnel'
+author:
+- name: Damien GABRIEL
+ affiliation: L3 Mécanique 2008-2009 Univeristé Paris Sud XI
+tags: [Couette plan, transition vers la turbulence, simulation, c++, DNS]
+abstract: |
+    L'objectif du stage était de trouver les paramètres optimaux pour l'étude de la transition vers la turbulence dans le cas de l'écoulement de Couette Plan.
+    
+    Pour ce faire un code écrit en C++, ChannelFlow, a  été modifié.
+    
+    Ce rapport présente le cadre de l'étude, les modifications du code réalisé et les résultats obtenus.
+---
