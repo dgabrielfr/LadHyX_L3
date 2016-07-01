@@ -12,6 +12,6 @@
 
 ghc --make includes.hs
 
-pandoc -F pandoc-crossref -F pandoc-citeproc -F ./includes annexe.md -t html5 -s -S --mathjax --bibliography biblio_stage_L3.bib -o rapport_L3.html
+> pandoc -F pandoc-crossref -F pandoc-citeproc -F ./includes annexe.md -t html5 -s -S --mathjax --bibliography biblio_stage_L3.bib -o annexe_L3.html
 
 
