@@ -15,3 +15,9 @@ ghc --make includes.hs
 > pandoc -F pandoc-crossref -F pandoc-citeproc -F ./includes annexe.md -t html5 -s -S --mathjax --bibliography biblio_stage_L3.bib -o annexe_L3.html
 
 
+pandoc -F pandoc-crossref -F pandoc-citeproc -F ./includes -f markdown -t html5 -c fichiers/css/github-pandoc.css -V lang=fr -S -s annexe.md --bibliography biblio_stage_L3.bib -o annexe_L3.html
+
+
+### TEST pour le fichier complet ###
+
+pandoc -N --chapters -V documentclass:repport -F pandoc-crossref -F pandoc-citeproc -F ./includes -f markdown -V lang=french -S -s introduction.md implementation.md modifications.md simulation.md annexe.md conclusion.md --template=mytemplate.tex --variable fontsize=11pt --variable version=1.0 --latex-engine=lualatex --toc --bibliography biblio_stage_L3.bib -o rapport_L3_remake.pdf

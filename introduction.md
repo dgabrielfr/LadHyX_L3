@@ -1,3 +1,7 @@
+% Test de rapport avec Pandoc
+% Damien GABRIEL
+% Refonte de juillet 2016
+
 <!-- NE PAS METTRE D'ESPACE DANS LES FORMULES -->
 <!-- Compiler avec 
 pandoc -F pandoc-crossref -F pandoc-citeproc introduction.md -t html5 -s --mathjax --bibliography bblio_stage_L3.bib -o rapport_L3.html -->
